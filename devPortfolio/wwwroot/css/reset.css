@@ -1,0 +1,107 @@
+﻿/* Universal */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    font-family: inherit;
+    font-variant: inherit;
+    letter-spacing: inherit;
+    text-align: inherit;
+    text-transform: inherit;
+    text-decoration: inherit;
+    vertical-align: inherit;
+}
+
+/* Listas */
+ol,
+ul,
+menu {
+    list-style: none;
+}
+
+/* Tablas */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+caption,
+th,
+td {
+    text-align: inherit;
+    font-weight: inherit;
+    padding: 0;
+}
+
+/* Citas */
+blockquote,
+q {
+    quotes: none;
+}
+
+/* Tipos con UA especial */
+pre,
+code,
+kbd,
+samp {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    white-space: inherit;
+}
+
+small {
+    font-size: inherit;
+}
+
+sub,
+sup {
+    font-size: inherit;
+    line-height: inherit;
+    vertical-align: inherit;
+}
+
+/* Formularios */
+button,
+input,
+select,
+textarea {
+    font: inherit;
+    line-height: inherit;
+    text-transform: inherit;
+    text-align: inherit;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+fieldset,
+legend,
+label,
+datalist,
+optgroup,
+option,
+progress,
+meter {
+    font: inherit;
+    line-height: inherit;
+}
+
+/* Enlaces */
+a {
+    text-decoration: inherit;
+}
+
+/* Accesibilidad: mantener outline */
+*:focus,
+*:focus-visible {
+    outline: revert;
+}

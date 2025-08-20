@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\PerezRA\\source\\repos\\devPortfolio\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6A03C1F2-7662-4AD8-AFF3-338258C3D67F}|devPortfolio\\devPortfolio.csproj|c:\\users\\perezra\\source\\repos\\devportfolio\\devportfolio\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A03C1F2-7662-4AD8-AFF3-338258C3D67F}|devPortfolio\\devPortfolio.csproj|solutionrelative:devportfolio\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A03C1F2-7662-4AD8-AFF3-338258C3D67F}|devPortfolio\\devPortfolio.csproj|c:\\users\\perezra\\source\\repos\\devportfolio\\devportfolio\\views\\shared\\_aboutme.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A03C1F2-7662-4AD8-AFF3-338258C3D67F}|devPortfolio\\devPortfolio.csproj|solutionrelative:devportfolio\\views\\shared\\_aboutme.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A03C1F2-7662-4AD8-AFF3-338258C3D67F}|devPortfolio\\devPortfolio.csproj|c:\\users\\perezra\\source\\repos\\devportfolio\\devportfolio\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A03C1F2-7662-4AD8-AFF3-338258C3D67F}|devPortfolio\\devPortfolio.csproj|solutionrelative:devportfolio\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +22,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_AboutMe.cshtml",
+              "DocumentMoniker": "C:\\Users\\PerezRA\\source\\repos\\devPortfolio\\devPortfolio\\Views\\Shared\\_AboutMe.cshtml",
+              "RelativeDocumentMoniker": "devPortfolio\\Views\\Shared\\_AboutMe.cshtml",
+              "ToolTip": "C:\\Users\\PerezRA\\source\\repos\\devPortfolio\\devPortfolio\\Views\\Shared\\_AboutMe.cshtml",
+              "RelativeToolTip": "devPortfolio\\Views\\Shared\\_AboutMe.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAIwCcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-20T18:34:33.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PerezRA\\source\\repos\\devPortfolio\\devPortfolio\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "devPortfolio\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PerezRA\\source\\repos\\devPortfolio\\devPortfolio\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "devPortfolio\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T20:48:13.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\PerezRA\\source\\repos\\devPortfolio\\devPortfolio\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "devPortfolio\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\PerezRA\\source\\repos\\devPortfolio\\devPortfolio\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "devPortfolio\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T20:43:17.687Z",
+              "EditorCaption": ""
             }
           ]
         },

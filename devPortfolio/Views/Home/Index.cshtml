@@ -1,8 +1,68 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿@* Layout contenedor *@
+<div class="layout">
+    @* Layout Principal *@
+    <div class="layout__aside">
+        <section class="aside__user-info">
+            <!--Informacion general del usuario-->
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+            <div class="user-info__general">
+                <div class="user-info__container-image">
+                    <img src="img/default-user.jpg" class="user-info__image" alt="Foto de perfil">
+                </div>
+
+                <h2 class="user-info__name">ALEJANDRO SANTILLÁN</h2>
+                <div class="user-info__job">Desarrollador Web</div>
+            </div>
+
+            <!--Menú de Navegación-->
+            <nav class="layout__menu">
+                <ul class="menu__list">
+                    <li class="menu__options">
+                        <a href="index.html" class="menu__link">
+                            <i class="fa-solid fa-house"></i>
+                            <span class="menu__overlay">Home</span>
+                        </a>
+                    </li>
+
+                    <li class="menu__options">
+                        <a href="sobre-mi.html" class="menu__link">
+                            <i class="fa-solid fa-user"></i>
+                            <span class="menu__overlay">Sobre Mi</span>
+                        </a>
+                    </li>
+
+                    <li class="menu__options">
+                        <a href="estudios.html" class="menu__link">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <span class="menu__overlay">Estudios</span>
+                        </a>
+                    </li>
+
+                    <li class="menu__options">
+                        <a href="portafolio.html" class="menu__link">
+                            <i class="fa-solid fa-briefcase"></i>
+                            <span class="menu__overlay">Portafolio</span>
+                        </a>
+                    </li>
+
+                    <li class="menu__options">
+                        <a href="blog.html" class="menu__link">
+                            <i class="fa-solid fa-book"></i>
+                            <span class="menu__overlay">Blog</span>
+                        </a>
+                    </li>
+
+                    <li class="menu__options">
+                        <a href="contacto.html" class="menu__link">
+                            <i class="fa-solid fa-envelope "></i>
+                            <span class="menu__overlay">Contacto</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+    </div>
+
+    <div class="layout__content">
+        @Html.Partial("_AboutMe")
+    </div>
 </div>
