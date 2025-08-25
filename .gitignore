@@ -416,3 +416,13 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+/bin/ 
+/obj/ 
+/.vs/ 
+*.user 
+*.suo 
+/bin/ 
+/obj/ 
+/.vs/ 
+*.user 
+*.suo 
